@@ -1,0 +1,71 @@
+IDE-integrated development tool
+Extensions -live server,prettier
+css-cascading style sheet
+-look and feel,animations,pop ups
+
+Basic syntax
+h1{
+    font-size:30px
+}
+
+h1-selector
+prop-font size
+value-30px
+
+color property
+
+
+DOM=document object model
+
+
+css comments /***/
+
+
+Mdn documentation
+
+
+Browser tools-inspect,page source,LOCAL server,NETWORK CALLS,
+
+universal selector-*{
+    color : red
+} -least priority
+
+id class props
+
+
+group selectors
+
+
+
+descendant selector
+
+
+#Color system and background
+-RGB
+-COLOR PICKER(255)
+rgb(,,)
+hex model
+alpha nchannel-transparent(0-1)
+
+
+absolute units
+-pixels-dot on screen
+
+
+height and width props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
