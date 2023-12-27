@@ -1,0 +1,13 @@
+test allign -cen
+text decoration -underline,overline,line through
+
+
+text-decoration0style-wavy,double,
+
+text-decoration-color
+
+text tranform property-uppercase,lowercase,capitalzie,non
+
+font family-fall back mechanism,web safe fonts
+
+box model-margin
