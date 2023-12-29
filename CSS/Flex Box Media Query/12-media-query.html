@@ -1,0 +1,48 @@
+<!--
+@media screen and (max-width:768px){
+    .conatiner{
+
+    }
+}
+
+1-width rule
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: yellow;
+            padding: 5px;
+        }
+        /* @media screen and (width:300px) {
+            .box{
+                background-color: green;
+            }
+            
+        } */
+        @media screen and (min-width:300px){
+            .box{
+                background-color: brown;
+            }
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1 id="heading">media query</h1>
+    <div class="box">box</div>
+    
+</body>
+</html>
+
+<!--combine-->
+<!--MAX WIDTH-->

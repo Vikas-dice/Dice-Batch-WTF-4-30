@@ -1,0 +1,78 @@
+<!--flex wrap-->
+<!--flex box
+    1-d
+    cross axis
+    main axis
+    flex-direction -row,row rev,col colrev
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .box{
+            height: 150px;
+            width: 150px;
+            border: 3px solid;
+            margin: 5px;
+        }
+        #heading{
+            text-align: center;
+        }
+        #container{
+            height: 600px;
+            width: 600px;
+            padding: 10px;
+            margin: 20px;
+            border: 3px solid ;
+            background-color: aqua
+            ;
+            display: flex;
+            /* flex-direction:column-reverse; */
+            /* justify-content: space-around; */
+            flex-wrap:wrap-reverse;
+        }
+        #box1{
+            background-color: yellow;
+        }
+        #box2{
+            background-color: green;
+        }
+        #box3{
+            background-color: pink;
+        }
+        #box4{
+            background-color: crimson;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 id="heading">Flex Container</h1>
+    <div id="container">
+        <div id="box1" class="box">Flex Item 1</div>
+        <div id="box2" class="box">Flex Item 2</div>
+
+        <div id="box3" class="box">Flex Item 3</div>
+
+        <div id="box4" class="box">Flex Item 4</div>
+        <div id="box4" class="box">Flex Item 4</div>
+        <div id="box4" class="box">Flex Item 4</div>
+        <div id="box4" class="box">Flex Item 4</div>
+
+
+    </div>
+
+    
+</body>
+</html>
