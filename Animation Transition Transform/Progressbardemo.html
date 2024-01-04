@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .progress-container{
+            height: 25px;
+        width: 90%;
+        border: 2px solid black;
+        border-radius: 30px;
+        position: relative;
+        left: 4%;
+
+       
+
+        }
+        .progress-input{
+            background-color: greenyellow;
+        height: 80%;
+        width: 30%;
+        border-radius: 10px;
+        animation: download 5s 1s 2;
+
+        }
+     
+        @keyframes download {
+            0%{width:0% ;}
+        90%{width: 95%;}
+        95%{width: 70%;}
+        100%{
+            width: 100%;
+        }
+            
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <input class="progress-input" type="text">
+    </div>
+    
+</body>
+</html>

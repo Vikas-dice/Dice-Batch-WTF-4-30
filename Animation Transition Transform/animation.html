@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           .box{
+        height:80px;
+        width:80px;
+        background-color: yellow;
+        border: 2px solid black;
+        border-radius: 10px;
+        
+        padding: 40px;
+        position: relative;
+            top: 50px;
+            left: 50px;
+
+/* 
+            animation-name: ghummakad;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate; */
+
+            animation: ghummakad 2s ease-in-out infinite alternate;
+
+        
+    }
+    @keyframes ghummakad {
+
+        0%{left: 10px;top: 0px;}
+            50%{left: 50px; top: 100px;}
+            100%{left: 200px;top: 0px;}
+        /* from{
+            left: 10px;
+            
+
+        }
+        to{
+            left: 200px;
+
+        }
+         */
+    }
+    </style>
+ 
+</head>
+<body>
+    <div class="box">Box</div>
+</body>
+</html>
+<!--
+
+
+
+    @keyframe identifier {
+        style
+
+
+    }
+-->
